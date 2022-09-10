@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-image: url('https://lh3.googleusercontent.com/7DfAnHvOAd3iZ0e5lF5cCaaYlrD7SAycuOVb349nD3heX7vkbYYBAaM_r0-e-dfLtG8EgCL7aeOGBETmAhNY36YF1Dmyna5tDxHiP6DvSVRCNZxXlfCbv1xfXBTBevFolRs6VhiXQFBva0ypkffrsu3iEsO2bI5_Dw7obxg0IxPlMm6x01ZzexNE2qJ0txcosxYJacQlBJCjZniuvcz8zzd2DnTc1rZLNMzVaff6Wt0kONTMNp9-C53Me8BetVPoXP78Tt-E1PBeEMCGO4AOatqRjjBor0M1u1GXUXFYREpRMLvIaihuLlFWEuGUHitoVvJuconDC5aL78x6TBmHrirnttwpmuqYWXIpKBLLqtcTAir4wH5rXNfTlKOXRR5gVZIQQ8acITu2Gs2lhg-zJYLeE8pYdNtTnFx9YICaQLfiyy8G83p_MbAiFgCJ6OXwyfx0WBq64aNoTQeK4KM2mwppX_H6K2cVw_4OoVrBmapwMF4V8QpwNNluvuC0wu0kT-WwXRXNtb53p9VDv3iQe2nQe-04RjH8Ro-xOz1Ic60b8uVTBZ8X2wD8xCq6z5sQ0aKfToipyJfnXqXle02Wl2EHKippFZKUwBFsdkSZ9a9jkcJf6blXPR05njlp1pQOMT48bkxKPDFV6Td41Ioe9WHHRS1_Wxb5_1DN4gb8c0nX1Km8-m6JHAn3dQVg0cFdYZDv5beZEAM9FCKduChdQEpZ-6Xzk0q_9jKjxe1nsEWL9lpDy_8kYlIrtg=w330-h220-no?authuser=0');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  height: 80px; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  color: salmon;
+  font-size: large;
+}
+
+main {
+  display: flex; 
+  justify-content: center;
+}
+
+form {
+  width: 350px;
+  height: 350px;
+  background-color: cadetblue;
+  position: relative;
+  display: flex; 
+  flex-direction: column;
+  justify-content: space-evenly; 
+  align-items: center;
+  margin: 30px;
+}
+
+button {
+  background-color: darkcyan;
+  width: 200px;
+  height: 50px;
+  color: black;
+  border: solid ;
+  border-color: blue;
+  margin: 5px;
+}
+
+/* #complimentButton{
+  background-color: red;
+  height: 150px;
+  width: 300px;
+  margin-right: 75%;
+}
+
+#fortuneButton {
+  background-color: green;
+  height: 150px;
+  width: 300px;
+} */
+
+
+input[type='text'] {
+  width: 85%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #232323;
+  color: #232323;
+  background-color: pink;
+}
+
+#ratings-container {
+  width: 85%;
+}
+
+#radio-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#goals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.goal-cover {
+  width: 200px; 
+  height: 200px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.goal-card {
+  background-color: salmon;
+  width: 200px;
+  margin: 20px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 12px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.goal-title {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.goal-rating {
+  font-size: 15px;
+  margin: 5px 0;
+}
+
+.btns-container {
+  width: 100%; 
+  display: flex;
+  justify-content: space-evenly;
+  margin: 5px;
+}
+
+.btns-container > button {
+  width: 20px;
+}
